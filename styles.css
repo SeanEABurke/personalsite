@@ -251,10 +251,17 @@ a *:hover {
     align-items:flex-start; 
     height: 20%; 
     padding: 20px; 
+    line-height: 1.5;
 }
 
 .box-text {
     flex: 1; 
+    padding-right: 50px;
+}
+
+.box-text h3{
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 .box-image {
